@@ -3,7 +3,7 @@ import { Typography, Box, Paper, Grid, Button, Container, Table, TableBody, Tabl
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import { supabase } from './supa';
-import * as XLSX from 'xlsx';
+import * as XLSX from '../node-modules/xlsx';
 
 
 
