@@ -8,7 +8,7 @@ export default defineConfig({
     rollupOptions: {
         external: [
             "../node-modules/@supabase/supabase-js", // ignore react stuff
-            "xlsx",
+            "../node-modules/xlsx",
         ],
     }
 },
